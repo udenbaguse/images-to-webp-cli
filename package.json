@@ -1,0 +1,27 @@
+{
+  "name": "image-to-webp",
+  "version": "0.1.0",
+  "description": "CLI tool to convert images to WebP format",
+  "type": "module",
+  "main": "bin/index.js",
+  "bin": {
+    "image-to-webp": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "image",
+    "webp",
+    "convert",
+    "cli",
+    "sharp"
+  ],
+  "author": "Muhamad Syamsudin A.K.A @udenbaguse",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "picocolors": "^2.1.1",
+    "sharp": "^0.33.2"
+  }
+}
