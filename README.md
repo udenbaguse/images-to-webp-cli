@@ -1,4 +1,4 @@
-# image-to-webp
+# images-to-webp-cli
 
 CLI tool to convert images to WebP format.
 
@@ -6,24 +6,24 @@ CLI tool to convert images to WebP format.
 ## Installation
 
 ```bash
-npm install -g image-to-webp
+npm install -g images-to-webp-cli
 ```
 
 ## Usage
 
 Convert a single image:
 ```bash
-image-to-webp convert /path/to/image.jpg
+images-to-webp-cli convert /path/to/image.jpg
 ```
 
 Convert with custom quality:
 ```bash
-image-to-webp convert /path/to/image.png -q 90
+images-to-webp-cli convert /path/to/image.png -q 90
 ```
 
 Convert all images in a directory:
 ```bash
-image-to-webp convert /path/to/directory
+images-to-webp-cli convert /path/to/directory
 ```
 
 ## Options
@@ -38,5 +38,5 @@ image-to-webp convert /path/to/directory
 ## Using with npx
 
 ```bash
-npx image-to-webp convert path/to/image.jpg
+npx images-to-webp-cli convert path/to/image.jpg
 ```

@@ -95,7 +95,7 @@ async function convertDirectory(dirPath, quality = DEFAULT_QUALITY) {
 const program = new Command();
 
 program
-  .name('image-to-webp')
+  .name('images-to-webp-cli')
   .description('Convert images to WebP format')
   .version('1.0.0');
 
